@@ -1,12 +1,52 @@
-  p.normal{font-family: Arial, Helvetica, sans-serif}
-  p{color: White;}
-  body {background-color: Black;}
-  img {border-style: solid;
-    border-color: white;
-    border-width: 3px;
-    width: 25%;}
- h1{padding: 20px}
- a[href="images.html"] {background-color: white;
-   padding: 1rem;}
- a[href="tik-tok-links.html"] {background-color: white;
-   padding: 1rem;}
+ p.normal{font-family: Arial, Helvetica, sans-serif}
+#lead-paragraph {
+  color: white;
+  font-weight: bold;}
+p{color: white;}
+img {border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  width: 25%;}
+h1{color: #778899;
+  padding: 1rem;
+border-style:solid;
+border-color: #778899;
+border-width: 3px;
+text-align: center}
+h2{color: White;
+  padding: 1rem;
+border-style:solid;
+border-color: White;
+border-width: 3px;
+text-align: center}
+h3{color: #808080;
+  padding: 1rem;
+  border-style: solid;
+  border-color: #808080;
+  border-width: 3px}
+h4{color: white;
+  padding: 20px}
+h5{color: white;
+  padding: 20px}
+ol{color: white}
+li{color: white}
+blockquote {color: white;
+padding: 1rem;
+border-style: solid;
+border-color: white;
+border-width: 3px}
+body {background-color:	black;}
+footer {color: #dcdcdc; padding: 1rem; text-align: center}
+a[href="images.html"] {background-color: #c0c0c0;
+  padding: .5rem;}
+a[href="tik-tok-links.html"] {background-color: #c0c0c0;
+    padding: .5rem;}
+th {color:white; font-size: 20px}
+img {border-style: solid;
+border-color: white;
+border-width: 3px;}
+.center {display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 33.33%;}
+
