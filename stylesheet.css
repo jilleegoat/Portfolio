@@ -40,7 +40,15 @@ footer {color: #dcdcdc; padding: 1rem; text-align: center}
 a[href="images.html"] {background-color: #c0c0c0;
   padding: .5rem;}
 a[href="tik-tok-links.html"] {background-color: #c0c0c0;
-    padding: .5rem;}
+  padding: .5rem;}
+a[href="https://www.tiktok.com/@jillegoat/video/7126779168926518574?is_copy_url=1&is_from_webapp=v1"]{background-color: #c0c0c0;
+  padding: inherit;}
+a[href="https://www.tiktok.com/@jillegoat/video/7123786716770569514?is_copy_url=1&is_from_webapp=v1"] {background-color: #c0c0c0;
+  padding: inherit;}
+a[href="https://www.tiktok.com/@jillegoat/video/7112260620757683502?is_copy_url=1&is_from_webapp=v1"] {background-color: #c0c0c0;
+  padding: inherit;}
+a[href="https://www.tiktok.com/@jillegoat"] {background-color: #c0c0c0;
+  padding: inherit;}
 th {color:white; font-size: 20px}
 img {border-style: solid;
 border-color: white;
@@ -49,4 +57,3 @@ border-width: 3px;}
  margin-left: auto;
  margin-right: auto;
  width: 33.33%;}
-
