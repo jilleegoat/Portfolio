@@ -1,18 +1,8 @@
- p.normal{font-family: Arial, Helvetica, sans-serif}
+p.normal{font-family: Arial, Helvetica, sans-serif}
 #lead-paragraph {
   color: white;
   font-weight: bold;}
 p{color: white;}
-img {border-style: solid;
-  border-color: white;
-  border-width: 3px;
-  width: 25%;}
-h1{color: #778899;
-  padding: 1rem;
-border-style:solid;
-border-color: #778899;
-border-width: 3px;
-text-align: center}
 h2{color: White;
   padding: 1rem;
 border-style:solid;
@@ -35,21 +25,17 @@ padding: 2rem;
 border-style: solid;
 border-color: white;
 border-width: 3px}
-body {background-color:	black;}
+body {background-color:	black; font-family: sans-serif;}
 footer {color: #dcdcdc; padding: 1rem; text-align: center}
-a[href="images.html"] {background-color: #c0c0c0;
-  padding: .5rem;}
-a[href="tik-tok-links.html"] {background-color: #c0c0c0;
-  padding: .5rem;}
-a[href="https://www.tiktok.com/@jillegoat/video/7126779168926518574?is_copy_url=1&is_from_webapp=v1"]{background-color: #c0c0c0;
-  padding: inherit;}
-a[href="https://www.tiktok.com/@jillegoat/video/7123786716770569514?is_copy_url=1&is_from_webapp=v1"] {background-color: #c0c0c0;
-  padding: inherit;}
-a[href="https://www.tiktok.com/@jillegoat/video/7112260620757683502?is_copy_url=1&is_from_webapp=v1"] {background-color: #c0c0c0;
-  padding: inherit;}
-a[href="https://www.tiktok.com/@jillegoat"] {background-color: #c0c0c0;
-  padding: inherit;}
-th {color:white; font-size: 20px}
+a[href="images.html"] {color: white; font-size: 18px; font-family: sans-serif;
+  }
+a[href="tik-tok-links.html"] {color: white; font-size: 18px; font-family: sans-serif;
+  }
+a[href="https://www.tiktok.com/@jillegoat/video/7126779168926518574?is_copy_url=1&is_from_webapp=v1"] {color: white; font-size: 18px; font-family: sans-serif;
+}
+a[href="https://www.tiktok.com/@jillegoat/video/7123786716770569514?is_copy_url=1&is_from_webapp=v1"] {color: white; font-size: 18px; font-family: sans-serif;
+}
+a[href="https://www.tiktok.com/@jillegoat/video/7112260620757683502?is_copy_url=1&is_from_webapp=v1"] {color:white; font-size: 20px}
 img {border-style: solid;
 border-color: white;
 border-width: 3px;}
@@ -57,3 +43,125 @@ border-width: 3px;}
  margin-left: auto;
  margin-right: auto;
  width: 33.33%;}
+ .box{
+   height: 400px;
+   width: 400px;
+   border: 20px solid white;
+   background: black;
+ }
+ .container{
+   height: 400px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+.goatimagepage {
+  font-style: italic;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.h1-header {
+  box-sizing: content-box;
+  position: inherit;
+  padding: 2.5rem;
+  background-color: #474747;
+  border: 10px;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+.TikTokLinks {
+  font-size: 18px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.Tiktoklinkpage {
+ font-size: 18px;
+ font-family: sans-serif;
+ font-weight: lighter;
+ text-indent: 10%;
+ color: white;
+ }
+.TikToklinkpageheader {
+  background-color: #474747;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  align-content: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  height: auto;
+}
+.TikToklinkpageheader2 {
+  background-color: #474747;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: white;
+  border: solid;
+  border-color: white;
+  height: 1rem;
+  font-size: 22px;
+}
+.h1-header{
+  background-color: #474747;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: white;
+  border: solid;
+  border-color: white;
+  height: 1rem;
+  font-size: 22px;
+}
+.h1-links {
+  background-color:#669999;
+  font-family: sans-serif;
+  color: white;
+  height: 5%;
+  font-size: 22px;
+  text-indent: inherit;
+  line-height: 3rem;
+  width: 100%;
+}
+header{
+box-sizing: content-box;
+width: 100%;
+background-color: #474747;
+color: white;
+font-weight:lighter;
+font-family: sans-serif;
+padding-top: 2rem;
+text-align: center;
+font-size: 22px;
+}
+.homepageheader{
+  background-color: #474747;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: white;
+  height: 10%;
+  font-size: 22px;
+}
+.h1-header{
+box-sizing: content-box;
+width: 100%;
+background-color: #474747;
+color: white;
+font-weight:lighter;
+font-family: sans-serif;
+padding-top: 2rem;
+}
+.imagepageheader{
+  background-color: #474747;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: white;
+  height: 10%;
+  font-size: 22px;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
